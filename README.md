@@ -4,7 +4,15 @@
 
 ## 安装
 
-环境要求：linux内核，使用python3.8及以上版本，不需要安装额外的库
+环境要求：linux内核，使用python3.8及以上版本
+
+运行以下命令安装库
+
+```shellsession
+python -m venv .venv
+source .venv/bin/activate
+pip install -r requirements.txt
+```
 
 ## 启动
 
